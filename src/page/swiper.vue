@@ -42,6 +42,7 @@ export default {
         }
     },
     mounted() {
+        //zenhhh
         this.initSwiper();
     }
 }
