@@ -30,10 +30,10 @@ export default {
             this.$nextTick(() => {
                 this.mySwiper = new Swiper('.swiper-container', {
                     loop: true,
-                    direction : 'vertical',
+                    direction: 'vertical',
                     // 如果需要分页器
                     pagination: {
-                        el:'.swiper-pagination'
+                        el: '.swiper-pagination'
                     },
                     // 如果需要滚动条
                     scrollbar: '.swiper-scrollbar',
@@ -53,6 +53,7 @@ body {
   padding: 0;
 }
 .swiper-container {
+  border: 1px solid red;
   width: 500px;
   height: 300px;
   margin: 20px auto;
