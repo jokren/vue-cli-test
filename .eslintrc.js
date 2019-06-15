@@ -21,6 +21,8 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    //函数之前的空格数--根据vuter格式化来设置多少
+    'space-before-function-paren':0,
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development

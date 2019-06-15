@@ -1,15 +1,22 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import TestView from '@/page/testview'
+import Swiper from '@/page/swiper.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  mode:'history',
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'TestView',
+      component: TestView
+    },
+    {
+      path: '/swiper',
+      name: 'Swiper',
+      component: Swiper
     }
   ]
 })
