@@ -10,7 +10,7 @@
             <div class="swiper-pagination"></div>
 
             <!-- 如果需要滚动条 -->
-            <div class="swiper-scrollbar"></div>
+            <!-- <div class="swiper-scrollbar"></div> -->
         </div>
     </div>
 </template>
